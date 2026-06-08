@@ -1,0 +1,10 @@
+subject-data/*
+.idea
+.*pyc
+.DS_Store
+Task_Peripheral/emg/*.asv
+Task_Peripheral/emg/scratch/*
+Task_Peripheral/ultrasound/*.asv
+Task_Peripheral/ultrasound/scratch/*
+Task_Peripheral/stim_presentation/data
+Tasks_GRIP_Setup.txt
