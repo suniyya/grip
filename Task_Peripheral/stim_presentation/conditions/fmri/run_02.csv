@@ -1,0 +1,11 @@
+image,grasp,side
+stimuli/power_L.png,power,L
+stimuli/point_L.png,point,L
+stimuli/wrist_flex_R.png,wrist_flex,R
+stimuli/power_R.png,power,R
+stimuli/wrist_flex_L.png,wrist_flex,L
+stimuli/point_R.png,point,R
+stimuli/wrist_ext_R.png,wrist_ext,R
+stimuli/wrist_ext_L.png,wrist_ext,L
+stimuli/pinch_R.png,pinch,R
+stimuli/pinch_L.png,pinch,L
