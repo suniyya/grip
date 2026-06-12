@@ -1,4 +1,5 @@
-% Ultrasound + Real-World Camera Recording Synced to LSL Markers
+% Ultrasound + EMG + Real-World Camera Recording Synced to LSL Markers and
+% PsychoPy task
 
 clear; close all; clc;
 % ========= Delsys + Real-World Camera Recording Synced to LSL Markers
@@ -29,7 +30,7 @@ if ~exist(outputDir, 'dir')
 end
 
 % ==== SET PATHS ====
-lslPath = 'E:\liblsl-Matlab'; 
+lslPath = 'C:\Users\ucdbe\grip\liblsl-Matlab'; 
 addpath(genpath(lslPath));
 
 % ==== INIT LSL ====
@@ -127,9 +128,9 @@ outlet.push_sample({outputDir});
         end
     end
 
-%catch ME
-    %fprintf('Exception caught: %s\n', ME.message);
-%end
+% catch ME
+%     fprintf('Exception caught: %s\n', ME.message);
+% end
 
 % ==== CLEANUP ====
 % Clean up completed async saves to avoid memory bloat
